@@ -1,1 +1,179 @@
 Project-Planning
+: Project Initiation & Requirement Analysis
+Duration: Week 1
+•	Identify the problem: students need personalized, interactive, and easily accessible academic assistance.
+•	Define the objective of EduGenie, an AI-powered learning assistant using Google Gemini.
+•	Identify target users: students, teachers, and administrators.
+•	Collect functional and non-functional requirements.
+•	Define project scope, limitations, and expected outcomes.
+•	Study existing AI learning assistants and identify gaps.
+Deliverables:
+•	Problem Statement
+•	Objectives
+•	Scope of the Project
+•	Requirement Specification
+•	Initial Project Proposal
+________________________________________
+Phase 2: System Analysis & Technology Selection
+Duration: Week 2
+•	Analyze the requirements and determine the system architecture.
+•	Select technologies for frontend, backend, database, and AI integration.
+•	Study the Google Gemini API and its capabilities for educational applications.
+•	Define how user queries will be processed and how AI-generated responses will be delivered.
+•	Identify security, privacy, and authentication requirements.
+Possible Technologies:
+•	Frontend: HTML, CSS, JavaScript / React
+•	Backend: Python Flask / FastAPI or Node.js
+•	AI: Google Gemini API
+•	Database: MySQL / MongoDB / Firebase
+•	Authentication: Firebase Authentication or JWT
+Deliverables:
+•	Technology Stack
+•	Feasibility Analysis
+•	System Requirements
+•	Initial Architecture
+________________________________________
+Phase 3: System Design
+Duration: Weeks 3–4
+•	Design the overall architecture of EduGenie.
+•	Design user roles and access permissions.
+•	Create database structure and relationships.
+•	Design user interface screens.
+•	Define the communication flow between the application, backend, database, and Gemini API.
+•	Prepare UML diagrams.
+Major Modules:
+1.	User Registration & Login
+2.	Student Dashboard
+3.	AI Chat Assistant
+4.	Question & Answer Module
+5.	Study Material Assistance
+6.	Quiz/Assessment Module
+7.	Personalized Learning Module
+8.	Progress Tracking
+9.	Admin Module
+Deliverables:
+•	System Architecture Diagram
+•	Use Case Diagram
+•	Class Diagram
+•	Activity/Sequence Diagrams
+•	ER Diagram
+•	UI Wireframes
+________________________________________
+Phase 4: Database & Backend Development
+Duration: Weeks 5–6
+•	Create the database and required collections/tables.
+•	Implement user authentication.
+•	Develop APIs for users, learning content, quizzes, and progress.
+•	Implement data validation and error handling.
+•	Establish secure communication between frontend and backend.
+•	Create the service layer for Gemini API integration.
+Deliverables:
+•	Working Database
+•	Backend APIs
+•	Authentication System
+•	API Documentation
+________________________________________
+Phase 5: Google Gemini AI Integration
+Duration: Weeks 7–8
+•	Integrate Google Gemini into the application.
+•	Develop the AI chat interface.
+•	Create prompts designed specifically for educational assistance.
+•	Implement contextual question answering.
+•	Add features such as:
+o	Topic explanations
+o	Summaries
+o	Question generation
+o	Quiz generation
+o	Step-by-step problem solving
+o	Study-plan suggestions
+•	Implement safeguards for inappropriate, irrelevant, or unreliable responses.
+•	Test response quality and latency.
+Deliverables:
+•	Functional Gemini Integration
+•	AI Prompt Design
+•	AI Learning Assistant Module
+•	Response Validation Mechanism
+________________________________________
+Phase 6: Frontend Development
+Duration: Weeks 9–10
+•	Develop the student dashboard.
+•	Build the AI chat interface.
+•	Implement learning-material and quiz interfaces.
+•	Display learning progress through charts/cards.
+•	Add responsive design for desktop and mobile devices.
+•	Connect frontend components with backend APIs.
+Deliverables:
+•	Complete User Interface
+•	Responsive Web Application
+•	Integrated Frontend + Backend
+________________________________________
+Phase 7: Personalized Learning & Assessment
+Duration: Week 11
+•	Track user learning activities.
+•	Analyze quiz performance and completed topics.
+•	Generate personalized learning recommendations.
+•	Provide quizzes based on selected subjects/topics.
+•	Store scores and learning history.
+•	Display progress reports.
+Deliverables:
+•	Personalized Learning Module
+•	Quiz System
+•	Progress Tracking
+•	Student Performance Report
+________________________________________
+Phase 8: Testing & Validation
+Duration: Week 12
+Conduct different levels of testing:
+•	Unit Testing: Test individual modules.
+•	Integration Testing: Test communication between frontend, backend, database, and Gemini.
+•	System Testing: Test the complete application.
+•	UI Testing: Verify usability and responsiveness.
+•	Performance Testing: Check response time and system performance.
+•	Security Testing: Test authentication and data protection.
+•	AI Response Testing: Evaluate accuracy, relevance, consistency, and educational usefulness.
+Deliverables:
+•	Test Cases
+•	Test Results
+•	Bug Reports
+•	Corrected Application
+________________________________________
+Phase 9: Deployment & Documentation
+Duration: Week 13
+•	Deploy the application to a suitable hosting platform.
+•	Configure production environment variables and API credentials securely.
+•	Perform final system verification.
+•	Prepare technical documentation.
+•	Prepare user manual and installation/setup instructions.
+Deliverables:
+•	Deployed EduGenie Application
+•	User Manual
+•	Technical Documentation
+•	Installation Guide
+________________________________________
+Phase 10: Evaluation & Final Presentation
+Duration: Week 14
+•	Demonstrate all major functionalities.
+•	Evaluate the system against the original objectives.
+•	Collect feedback from sample users.
+•	Analyze project results.
+•	Document limitations and possible future enhancements.
+•	Prepare final project report and presentation.
+Deliverables:
+•	Final Project Report
+•	Presentation/PPT
+•	Demonstration
+•	Evaluation Results
+•	Future Enhancement Plan
+Overall Project Timeline
+Phase	Activity	Duration
+1	Initiation & Requirement Analysis	Week 1
+2	System Analysis & Technology Selection	Week 2
+3	System Design	Weeks 3–4
+4	Database & Backend Development	Weeks 5–6
+5	Gemini AI Integration	Weeks 7–8
+6	Frontend Development	Weeks 9–10
+7	Personalization & Assessment	Week 11
+8	Testing & Validation	Week 12
+9	Deployment & Documentation	Week 13
+10	Evaluation & Final Presentation	Week 14
+
